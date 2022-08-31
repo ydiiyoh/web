@@ -34,3 +34,16 @@ document.querySelectorAll('a').forEach(links =>{
     }
 
 });
+
+const box = document.querySelectorAll('.box')
+box[0].addEventListener('click', function () {
+    window.open("http://luckypeng.tk/com-e-commerce/dist/")
+})
+
+box[1].addEventListener('click', function () {
+    window.open("http://luckypeng.tk/todolist/")
+})
+
+box[2].addEventListener('click', function () {
+    window.open("http://luckypeng.tk/nav/")
+})
